@@ -7,3 +7,10 @@ $(document).ready  (function (){
 $(function(){
 	$("#table_id").dataTable();
 });
+/*$('#pagination-demo').twbsPagination({
+        totalPages: 35,
+        visiblePages: 7,
+        onPageClick: function (event, page){
+            $('#page-content').text('Page ' + page);
+        }
+});*/
